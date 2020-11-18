@@ -1,12 +1,12 @@
 # LLR Event Detector
 
-Appliance event detection based on log likelihood ratio test.
+Appliance event detection based on the log likelihood ratio test.
 
-The algorithm is based on work from Pereira et al. [[1]](#1) and Völker et al. [[2]](#2)
+The algorithm is based on work from Pereira et al. [[1]](#1) and Völker et al. [[2]](#2) 
+Instead of just finding events, these are also clustered to set a preliminary label to similar events.
 
-
+You can see an example result here:
 ![results](docu/example.png)
-
 
 
 ## References

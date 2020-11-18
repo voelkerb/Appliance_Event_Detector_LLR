@@ -47,8 +47,10 @@ for e, label in zip(events, labels):
     ax.axvline(x=e, color=(0,0,0))
     y = ax.get_ylim()[0] + (ax.get_ylim()[1]-ax.get_ylim()[0])/1.3
     ax.text(e, y, label, rotation=270)
-plt.show()
 
+ax.set_ylabel("Power [W]")
+ax.set_xlabel("Sample")
+plt.show()
 
 
 # %%
