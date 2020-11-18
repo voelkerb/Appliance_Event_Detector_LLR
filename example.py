@@ -50,3 +50,5 @@ for e, label in zip(events, labels):
 plt.show()
 
 
+
+# %%
